@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+
+    <style>
+
+        body{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+        }
+
+        h1{
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .boton{
+            margin-top: 10px;
+            height: 40px;
+            width: 300px;
+            padding: 5px;
+            font-size: 15px;
+            background-color: rgb(252, 235, 0);
+            color: black;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 3px;
+            cursor: pointer;
+            
+        }
+
+        input{
+            margin: 8px;
+            height: 30px;
+            width: 100%;
+            color: white;
+            background-color: rgb(59, 59, 59);
+            border: 1px solid rgb(88, 88, 88);
+        }
+
+
+        div{
+            text-align: left;
+            background-color: rgb(29, 29, 29);
+            color: white;
+            width: 300px;
+            padding: 20px 40px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid rgb(88, 88, 88);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulario de Datos Personales</h1>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" max="2010-12-31" min="1910-01-01">
+            <br>
+            <label for="pais">País de Residencia:</label>
+            <input type="text" id="pais" name="pais">
+            <br>
+            <input class="boton" type="submit" value="Enviar">
+        </div>
+        <br>
+        <input class="boton" type="button" value="Estilo 1">
+        <br>
+        <input class="boton" type="button" value="Estilo de Alto Contraste">
+
+    </form>
+    
+</body>
+</html>

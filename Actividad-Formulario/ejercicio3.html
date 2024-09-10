@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+
+    <style>
+
+        body{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgb(236, 234, 234);
+        }
+
+        h1{
+            margin-bottom: 10px;
+            color: black;
+        }
+
+        .boton{
+            margin-top: 10px;
+            height: 40px;
+            width: 300px;
+            padding: 5px;
+            font-size: 15px;
+            background-color: rgb(8, 133, 216);
+            color: white;
+            border: 2px solid rgb(0, 0, 0);
+            cursor: pointer;
+            border-radius: 2px;
+            
+        }
+
+        input{
+            margin: 8px;
+            height: 30px;
+            width: 100%;
+            border: 1px solid rgb(187, 186, 186);
+        }
+
+        div{
+            text-align: left;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            width: 300px;
+            padding: 20px 40px;
+            margin: 8px;
+            display: inline-block;
+            border: 1px solid rgb(187, 186, 186);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Formulario de Datos Personales</h1>
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="20" minlength="2" required>
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" maxlength="20" minlength="2" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="fecha">Fecha de Nacimiento:</label>
+            <input type="date" id="fecha" name="fecha" max="2010-12-31" min="1910-01-01" required>
+            <br>
+            <label for="pais">País de Residencia:</label>
+            <input type="text" id="pais" name="pais" required>
+            <br>
+            <input class="boton" type="submit" value="Enviar">
+        </div>
+    </form>
+    
+</body>
+</html>

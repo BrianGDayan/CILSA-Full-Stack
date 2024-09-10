@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(236, 234, 234);
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+
+input{
+    margin: 8px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgb(187, 186, 186);
+}
+
+div{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 300px;
+    padding: 20px 40px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(187, 186, 186);
+}
+
+#enviar {
+    background-color: rgb(8, 133, 216);
+    color: white
+}
+
+#estilo1 {
+    background-color: rgb(8, 133, 216);
+    color: white
+}
+
+#altoContraste {
+    background-color: rgb(252, 235, 0);
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.boton{
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(8, 133, 216);
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 2px;
+    
+}
+
+.estilo1 {
+    background-color: rgb(236, 234, 234);
+}
+
+.altoContraste {
+    background-color: black;
+    color: white;
+}
+
+.altoContraste div {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.altoContraste input{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: 1px solid rgb(88, 88, 88);
+}
